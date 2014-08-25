@@ -1,0 +1,106 @@
+/* Visit http://www.menucool.com/horizontal/javascript-menu for source code and other menu CSS templates */
+
+#sse2
+{
+    /*You can decorate the menu's container, such as adding background images through this block*/
+    background-color: #666;
+    height: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	/*background: #000000 url(images/img12.jpg) repeat top left;*/
+	background:#FFFFFF;
+	text-align: justify;
+	font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #7F7772;
+}
+#loginuser{
+    float:right;
+    font-size: 20px;
+    padding: 15px 15px;
+    color: white;
+
+}	
+#imagelogo {
+	float: left;
+	width: 240px;
+}
+#page {
+	width: 890px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+p{
+	margin: 0;
+	line-height: 200%;
+	width:700px;
+	}
+	
+#sidebar {
+	float: right;
+	width: 240px;
+}
+#sidebar h2{
+	width: 240px;
+	height: 30px;
+	padding: 5px 30px;
+	background: #FFB700 url(images/img05.gif);
+	letter-spacing: -1px;
+	font-size: 1.6em;
+	color: #7F7772;
+}
+td.link1{
+text-align:center;
+}
+#sses2
+{
+    margin:0 auto;/*This will make the menu center-aligned. Removing this line will make the menu align left.*/
+}
+#sses2 ul 
+{ 
+    position: relative;
+    list-style-type: none;
+    float:left;
+    padding:0;margin:0;
+}
+#sses2 li
+{
+    float:left;
+    list-style-type: none;
+    padding:0;margin:0;background-image:none;
+}
+/*CSS for background bubble*/
+#sses2 li.highlight
+{
+    background:#990;
+    top:0px;
+    height:30px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    z-index: 1;
+    position: absolute;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";/*For IE 8*/
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#000000'); /*For IE 5.5 - 7*/
+}
+#sses2 li a
+{
+    height:30px;
+    padding-top: 8px;
+    margin: 0 20px;/*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+    color: white;
+    font: normal 12px arial;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 2;
+}

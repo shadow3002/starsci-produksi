@@ -1,0 +1,157 @@
+/* MAIN TEMPLATE */
+body{
+	background-color:#FFF;
+	background-repeat:repeat;
+	background-position:left top;
+}
+
+a{
+	color:#369;	
+}
+
+#header{
+	background:url(../blue/img/header.png) repeat-x top left;
+}
+
+#mainnav ul li a.active{
+	background:url(../blue/img/bg-menu-active.png) repeat-x left top;
+}
+#mainnav ul li div a.activee{
+	background:#E68728;
+}
+
+#footer{
+	background:url(img/bg-footer.png) repeat-x left top;
+	color:#333;
+}
+#footer a{
+	color:#369;
+}
+
+/* MAIN BOX */
+.box_cont_main{
+	background-image:url(../blue/img/box_center.png);
+}
+.box_cont_left{
+	background-image:url(../blue/img/box_left.png);
+}
+.box_cont_right{
+	background-image:url(../blue/img/box_right.png);
+}
+.box_cont_main h2{
+	color:#1F7ABE;
+}
+.box_cont_cont{	
+	border-color:#c9e0ed;
+	color:#183C5F;
+	background-color:#FAFDFE;
+}
+
+/* COSTUM JQUERY-UI CSS */
+.ui-dialog{
+	border:1px solid #c9e0ed !important;
+}
+.ui-dialog .ui-dialog-titlebar{
+	background:url(../blue/img/bg-bar.gif) repeat-x 0 -1px !important;
+	border-bottom:1px solid #c9e0ed !important;
+}
+.ui-dialog .ui-dialog-title{
+	color:#183C5F !important;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	background:url(../blue/img/tool-sprites.gif) no-repeat 0 0 !important;
+}
+.ui-dialog .ui-dialog-titlebar-close span:hover {
+	background:url(../blue/img/tool-sprites.gif) no-repeat -15px 0 !important;
+}
+
+/* COSTUM INPUT BUTTON */
+.cs-button:hover{
+	background:url(../blue/img/bg-button-over.gif) left top repeat-x;
+	border:1px solid #597c8d;
+}
+.cs-button:focus:hover{
+	background:url(../blue/img/bg-button-down.gif) left top repeat-x;
+	border:1px solid #597c8d;
+}
+
+/* PANEL DKK */
+.panel{
+	background-color:#e9f2ff;
+	border:1px solid #9ab5db;
+}
+
+.panel-inner{
+	border:1px solid #9ab5db;
+}
+
+.panel-inner-head{
+	background:url(../blue/img/bg-panel-box-top.gif) repeat-x 0 -1px;
+	color:#069;
+	border-bottom:1px solid #9ab5db;
+}
+.panel-inner-toolbar{
+	background:#d2e1f0 url(../blue/img/bg-panel-toolbar.gif) repeat-x 0 -1px;
+	border-bottom:1px solid #9ab5db;
+}
+.panel-inner-toolbar .menuitem li span.split{
+	background:url(../blue/img/grid-blue-split.gif) no-repeat center 2px;
+}
+.panel-inner-toolbar .menuitem li a:hover{
+	background:url(../blue/img/grid-hrow-over.gif) repeat-x 0 0;
+	border:1px solid #8fbfda;
+}
+.panel-inner-toolbar .menuitem li a:focus:hover{
+	background:url(../blue/img/grid-hrow.gif) repeat-x 0 0;
+	border:1px solid #8fbfda;
+}
+
+/* control paging */
+.panel-inner-toolbar .menuitem li a span.mfirst{
+	background:url(../blue/img/page-first.gif) no-repeat 0 0px;
+}
+.panel-inner-toolbar .menuitem li a span.mprev{
+	background:url(../blue/img/page-prev.gif) no-repeat 0 0px;
+}
+.panel-inner-toolbar .menuitem li a span.mlast{
+	background:url(../blue/img/page-last.gif) no-repeat 0 0px;
+}
+.panel-inner-toolbar .menuitem li a span.mnext{
+	background:url(../blue/img/page-next.gif) no-repeat 0 0px;
+}
+
+/* ////// COSTUM TABLE //////// */
+.cs-table tr.head td:hover{
+	background:#ebf3fd url(../blue/img/bg-table-head-over.gif) repeat-x left bottom;
+}
+.cs-table tr.head td:hover div.split{
+	background:url(../blue/img/bg-table-head-grid-split-over.gif) repeat-y right top;
+}
+
+.cs-table2{
+	border:1px solid #CFD9DE;
+}
+.cs-table2 td{
+	border:1px solid #CFD9DE;
+}
+.cs-table2 tr.head{
+	background:#E2EDF1;
+}
+
+.inndivhead{
+	background:#5291C5;
+	border:1px solid #5291C5;
+	color:#FFF;
+	text-shadow:1px 1px 1px #333;
+}
+.inndivisi{
+	border:1px solid #5291C5;
+}
+
+/* FOOTER */
+.footer{
+	margin-top:12px;
+	color:#FFF;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #000;
+}

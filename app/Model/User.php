@@ -1,0 +1,192 @@
+<?php
+App::uses('AppModel', 'Model');
+/**
+ * User Model
+ *
+ */
+class User extends AppModel {
+
+/**
+ * Primary key field
+ *
+ * @var string
+ */
+		var $name = 'User';
+		var $captcha = '';
+		 public $actsAs = array('Search.Searchable');
+		 public $filterArgs = array(
+		 array('name' =>'name', 'type' => 'query', 'method' =>'username'),
+		 array('name' =>'username', 'type' => 'query', 'method' =>'username'));
+
+/**
+ * Validation rules
+ *
+ * @var array
+ */
+
+	public $validate = array(
+		'username' => array(
+				'Please Enter Your Username'=>array(
+				'rule' => 'notEmpty'
+			),
+			'That Username has already been taken'=>array(
+				'rule' => 'isUnique'
+			),
+			'The username must be between 5 and 15 characters'=>array(
+				'rule' => array('between', 5, 15)
+			),
+		),
+		'password' => array(
+			'Please enter your password' => array(
+				'rule' => array('notEmpty'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+			'Match Passwords'=>array(
+			'rule'=>'matchPasswords',
+			'message'=>'Your passwords do not match'
+			)
+		),
+		'password_confirmation' => array(
+			'Please confirm your password' => array(
+				'rule' => array('notEmpty'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'level' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+		),
+		'group_user_id' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+		),
+		'first_name' => array(
+				'Please Enter Your Username'=>array(
+				'rule' => 'notEmpty',
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'last_name' => array(
+				'Please Enter Your Username'=>array(
+				'rule' => 'notEmpty',
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'email' => array(
+				'Please Enter Your Email'=>array(
+				'rule' => 'notEmpty',
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'phone' => array(
+				'Please Enter Your Phone Number'=>array(
+				'rule' => 'notEmpty',
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'alamat' => array(
+				'Please Enter Your Address'=>array(
+				'rule' => 'notEmpty',
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'captcha'=>array(
+				'rule' => array('matchCaptcha'),
+				'message'=>'Kode yang dimasukkan salah.'
+			),
+	);
+	
+	
+	public function username($data = array()){
+		if(!empty($data['name']) && ($data['username'])){
+		$cond = array(
+		'username LIKE' => '%'.$data['username'].'%',
+		'OR' =>array(
+		'first_name LIKE' => '%'.$data['name'].'%',
+		'last_name LIKE' => '%'.$data['name'].'%'));
+		return $cond;
+		}
+		else{
+		if($data['name']){
+		
+		$cond = array(
+		'OR' =>array(
+		$this->alias. '.first_name LIKE' => '%'. $data['name'] .'%',
+		$this->alias. '.last_name LIKE' => '%'. $data['name'] .'%'));
+		return $cond;
+		}
+		if($data['username']){
+		
+		$cond = array(
+		'OR' =>array(
+		'username LIKE' => '%'.$data['username'].'%'));
+		return $cond;
+		}
+		}
+	}
+	
+	public function matchPasswords($data){
+		if($data['password'] == $this->data['User']['password_confirmation']){
+			return true;
+		}
+		$this->invalidate('password_confirmation', 'Your password do not match');
+	return false;
+	}
+	function matchCaptcha($inputValue)	{
+		return $inputValue['captcha']==$this->getCaptcha(); //return true or false after comparing submitted value with set value of captcha
+	}
+
+	function setCaptcha($value)	{
+		$this->captcha = $value; //setting captcha value
+	}
+
+	function getCaptcha()	{
+		return $this->captcha; //getting captcha value
+	}
+	
+	public function beforeSave($options = array()){
+		if(isset($this->data['User']['password'])){
+			$this->data['User']['password'] = AuthComponent::password($this->data['User']['password']);
+		}
+		return true;
+	}
+	
+	
+	public $belongsTo = array('GroupUser');
+}

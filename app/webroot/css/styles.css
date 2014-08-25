@@ -1,0 +1,131 @@
+
+#content {
+  margin-bottom:30px;
+  padding:20px 120px;
+}
+a:link {color:#000000;}      /* unvisited link */
+a:visited {color:#00FF00;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+#titles{
+font-size:30px;
+color:#F03F98;
+font-style:bold;
+font-family:"Arial black", Times, serif;
+
+}
+
+.box_cont_cont {
+  background-color:#FAFDFE;
+  border-color:#C9E0ED;
+  color:#183C5F;
+  background-color:#FFFFFF;
+  border-bottom-width:1px;
+  border-left-width:1px;
+  border-right-width:1px;
+  border-style:none solid solid;
+  width:100%;
+  height:1000px;
+  }
+.ui-corner-bottom {
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  }
+.box_cont_main h2{
+
+  font-size:16px;
+  line-height:40px;
+  text-align:center;
+  padding:0px 200px;
+  text-shadow:#FFFFFF 1px 1px 1px;
+  color:#1F7ABE;
+  background-image:url(../img/box_center.png);
+}
+.box_cont_main {
+  background-position:0 0;
+  background-repeat:repeat;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  background-image:url(../img/box_center.png);
+  
+}
+.box_cont_left {
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  background-image:url(../img/box_left.png);
+}
+.box_cont_right {
+  background-position:100% 0;
+  background-repeat:no-repeat no-repeat;
+  background-image:url(../img/box_right.png);
+}
+#borderone
+{
+width:1000px;
+text-align:left;
+border:0px;
+padding:20px;
+margin:0 auto;
+}
+
+#bordertwo
+{
+width:1000px;
+text-align:center;
+border:0px;
+padding:20px;
+margin:0 auto;
+}
+
+#bordersatu
+{
+width:1000px;
+text-align:left;
+border:0px;
+padding:10px ;
+position:relative;
+left:-100px;
+margin:0 auto;
+}
+#iner {
+width:100%;
+float:left;
+}
+#iner h2{
+position:relative;
+left:-10px;
+}
+#right{
+text-align:right;
+padding:10px 250px;
+}
+#right1{
+text-align:right;
+padding:10px 270px;
+}
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+table thead td {
+ border-bottom: 1px solid #000; 
+}
+#iner1 {
+width:79%;
+margin:10px auto;
+text-align:center;
+}
+#iner2{
+float:left;
+width:75%;
+}
+#iner3{
+padding:20px 150px;
+text-align: left;
+}

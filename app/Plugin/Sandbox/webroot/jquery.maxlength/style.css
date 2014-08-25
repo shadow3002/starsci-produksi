@@ -1,0 +1,10 @@
+.status {
+	font-size: 11px;
+	padding: 4px;
+}
+
+.notification {
+	border:3px solid #d55b5b;
+	background-color: #ffcdcd;
+	padding:5px;
+}

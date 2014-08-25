@@ -1,0 +1,369 @@
+2014-05-16 20:54:05 Debug: Notice (8): Undefined index: productcolour in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 76]
+Trace:
+CoamastersController::add() - APP\Controller\CoamastersController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 20:54:05 Debug: Notice (8): Undefined index: refactionindex in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 82]
+Trace:
+CoamastersController::add() - APP\Controller\CoamastersController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 20:54:05 Debug: Notice (8): Undefined index: phofproduct in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 88]
+Trace:
+CoamastersController::add() - APP\Controller\CoamastersController.php, line 88
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 20:54:05 Debug: Notice (8): Undefined index: totalsolidcontent in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 94]
+Trace:
+CoamastersController::add() - APP\Controller\CoamastersController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 20:54:05 Debug: Notice (8): Undefined index: freeformaldehidecontent in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 100]
+Trace:
+CoamastersController::add() - APP\Controller\CoamastersController.php, line 100
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 20:54:05 Debug: Notice (8): Undefined index: triazinecontent in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 106]
+Trace:
+CoamastersController::add() - APP\Controller\CoamastersController.php, line 106
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 20:54:05 Debug: Notice (8): Undefined index: viscosity in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 112]
+Trace:
+CoamastersController::add() - APP\Controller\CoamastersController.php, line 112
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 20:54:05 Debug: Notice (8): Undefined index: solubilityinwater in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 118]
+Trace:
+CoamastersController::add() - APP\Controller\CoamastersController.php, line 118
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 20:54:05 Debug: Notice (8): Undefined index: solubilityinwater in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 124]
+Trace:
+CoamastersController::add() - APP\Controller\CoamastersController.php, line 124
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 20:54:05 Debug: Notice (8): Undefined index: density in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 130]
+Trace:
+CoamastersController::add() - APP\Controller\CoamastersController.php, line 130
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 20:54:05 Debug: Notice (8): Undefined index: tambahan1 in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 136]
+Trace:
+CoamastersController::add() - APP\Controller\CoamastersController.php, line 136
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 20:54:05 Debug: Notice (8): Undefined index: tambahan1 in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 144]
+Trace:
+CoamastersController::add() - APP\Controller\CoamastersController.php, line 144
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 20:54:05 Debug: Notice (8): Undefined index: tambahan2 in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 152]
+Trace:
+CoamastersController::add() - APP\Controller\CoamastersController.php, line 152
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: appearance in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 197]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 197
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: productcolour in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 203]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 203
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: refactionindex in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 209]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: phofproduct in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 215]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 215
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: totalsolidcontent in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 221]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 221
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: freeformaldehidecontent in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 227]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 227
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: triazinecontent in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 233]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 233
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: viscosity in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 239]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 239
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: solubilityinwater in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 245]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 245
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: solubilityinwater in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 251]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 251
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: density in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 257]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 257
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: tambahan1 in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 263]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 263
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: tambahan1 in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 271]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 271
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:35 Debug: Notice (8): Undefined index: tambahan2 in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 279]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 279
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: appearance in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 197]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 197
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: productcolour in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 203]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 203
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: refactionindex in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 209]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: phofproduct in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 215]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 215
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: totalsolidcontent in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 221]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 221
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: freeformaldehidecontent in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 227]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 227
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: triazinecontent in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 233]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 233
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: viscosity in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 239]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 239
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: solubilityinwater in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 245]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 245
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: solubilityinwater in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 251]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 251
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: density in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 257]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 257
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: tambahan1 in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 263]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 263
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: tambahan1 in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 271]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 271
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+
+2014-05-16 21:19:52 Debug: Notice (8): Undefined index: tambahan2 in [E:\php\starsciremodeling\app\Controller\CoamastersController.php, line 279]
+Trace:
+CoamastersController::edit() - APP\Controller\CoamastersController.php, line 279
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110
+

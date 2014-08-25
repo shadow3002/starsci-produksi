@@ -1,0 +1,153 @@
+<?php
+/**
+ * CoamasterFixture
+ *
+ */
+class CoamasterFixture extends CakeTestFixture {
+
+/**
+ * Fields
+ *
+ * @var array
+ */
+	public $fields = array(
+		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 4, 'key' => 'primary'),
+		'nocoa' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 22, 'key' => 'unique', 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'namaproduk' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 25, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'lotno' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 12, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'tanggaltes' => array('type' => 'date', 'null' => false, 'default' => null),
+		'appunit' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'appreq' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'appresults' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 7, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'appket' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'produkunit' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'produkreq' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'produkresults' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 7, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'produkket' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'refracunit' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'refracreq' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'refracresults' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 7, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'refracket' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'phunit' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'phreq' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'phresults' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 7, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'phket' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'tscunit' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'tscreq' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'tscresults' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 7, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'tscket' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'freeunit' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'freereq' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'freeresults' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 7, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'freeket' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'triziunit' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'trizireq' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'triziresults' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 7, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'triziket' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'viscounit' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'viscoreq' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'viscoresults' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 7, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'viscoket' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'solunit' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'solreq' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'solresults' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 7, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'solket' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'densiunit' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'densireq' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'densiresults' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 7, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'densiket' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'namatmbh1' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'methodtmbh1' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 30, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'tmbh1unit' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'tmbh1req' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'tmbh1results' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 7, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'tmbh1ket' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'namatmbh2' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'methodtmbh2' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 30, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'tmbh2unit' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 10, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'tmbh2req' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 35, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'tmbh2results' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 7, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'tmbh2ket' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'create_date' => array('type' => 'datetime', 'null' => false, 'default' => null),
+		'create_by' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 25, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'update_date' => array('type' => 'datetime', 'null' => false, 'default' => null),
+		'update_by' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 25, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'indexes' => array(
+			'PRIMARY' => array('column' => 'id', 'unique' => 1),
+			'nocoa' => array('column' => 'nocoa', 'unique' => 1)
+		),
+		'tableParameters' => array('charset' => 'latin1', 'collate' => 'latin1_swedish_ci', 'engine' => 'MyISAM')
+	);
+
+/**
+ * Records
+ *
+ * @var array
+ */
+	public $records = array(
+		array(
+			'id' => 1,
+			'nocoa' => 'Lorem ipsum dolor si',
+			'namaproduk' => 'Lorem ipsum dolor sit a',
+			'lotno' => 'Lorem ipsu',
+			'tanggaltes' => '2013-12-26',
+			'appunit' => 'Lorem ip',
+			'appreq' => 'Lorem ipsum dolor sit amet',
+			'appresults' => 'Lorem',
+			'appket' => 'Lorem ipsum dolor sit amet',
+			'produkunit' => 'Lorem ip',
+			'produkreq' => 'Lorem ipsum dolor sit amet',
+			'produkresults' => 'Lorem',
+			'produkket' => 'Lorem ipsum dolor sit amet',
+			'refracunit' => 'Lorem ip',
+			'refracreq' => 'Lorem ipsum dolor sit amet',
+			'refracresults' => 'Lorem',
+			'refracket' => 'Lorem ipsum dolor sit amet',
+			'phunit' => 'Lorem ip',
+			'phreq' => 'Lorem ipsum dolor sit amet',
+			'phresults' => 'Lorem',
+			'phket' => 'Lorem ipsum dolor sit amet',
+			'tscunit' => 'Lorem ip',
+			'tscreq' => 'Lorem ipsum dolor sit amet',
+			'tscresults' => 'Lorem',
+			'tscket' => 'Lorem ipsum dolor sit amet',
+			'freeunit' => 'Lorem ip',
+			'freereq' => 'Lorem ipsum dolor sit amet',
+			'freeresults' => 'Lorem',
+			'freeket' => 'Lorem ipsum dolor sit amet',
+			'triziunit' => 'Lorem ip',
+			'trizireq' => 'Lorem ipsum dolor sit amet',
+			'triziresults' => 'Lorem',
+			'triziket' => 'Lorem ipsum dolor sit amet',
+			'viscounit' => 'Lorem ip',
+			'viscoreq' => 'Lorem ipsum dolor sit amet',
+			'viscoresults' => 'Lorem',
+			'viscoket' => 'Lorem ipsum dolor sit amet',
+			'solunit' => 'Lorem ip',
+			'solreq' => 'Lorem ipsum dolor sit amet',
+			'solresults' => 'Lorem',
+			'solket' => 'Lorem ipsum dolor sit amet',
+			'densiunit' => 'Lorem ip',
+			'densireq' => 'Lorem ipsum dolor sit amet',
+			'densiresults' => 'Lorem',
+			'densiket' => 'Lorem ipsum dolor sit amet',
+			'namatmbh1' => 'Lorem ipsum dolor sit amet',
+			'methodtmbh1' => 'Lorem ipsum dolor sit amet',
+			'tmbh1unit' => 'Lorem ip',
+			'tmbh1req' => 'Lorem ipsum dolor sit amet',
+			'tmbh1results' => 'Lorem',
+			'tmbh1ket' => 'Lorem ipsum dolor sit amet',
+			'namatmbh2' => 'Lorem ipsum dolor sit amet',
+			'methodtmbh2' => 'Lorem ipsum dolor sit amet',
+			'tmbh2unit' => 'Lorem ip',
+			'tmbh2req' => 'Lorem ipsum dolor sit amet',
+			'tmbh2results' => 'Lorem',
+			'tmbh2ket' => 'Lorem ipsum dolor sit amet',
+			'create_date' => '2013-12-26 21:00:28',
+			'create_by' => 'Lorem ipsum dolor sit a',
+			'update_date' => '2013-12-26 21:00:28',
+			'update_by' => 'Lorem ipsum dolor sit a'
+		),
+	);
+
+}

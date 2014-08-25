@@ -1,0 +1,9 @@
+public function favorites() {
+    $this->request->onlyAllow('ajax'); // No direct access via browser URL - Note for Cake2.5: allowMethod()
+ 
+    $data = array(
+        'content' => ...,
+        'error' => null,
+    );
+    $this->set('_serialize', 'data');
+}
